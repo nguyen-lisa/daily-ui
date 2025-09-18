@@ -7,4 +7,6 @@ Link to see code in action: https://codepen.io/nguyen-lisa/pen/VYvGYGB
 ## Screenshots
 
 ![Sign Up landing](./screenshots/signupLanding.png)
+![Sign Up Name Input Field](./screenshots/signupName.png)
+![Sign Up Form Submission Success](./screenshots/signupSubmit.png)
 
