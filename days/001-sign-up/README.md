@@ -6,4 +6,4 @@ Link to see code in action: https://codepen.io/nguyen-lisa/pen/VYvGYGB
 
 ## Screenshots
 
-![Day 001 — Sign Up Landing Page](/screenshots/signupLanding.png)
+![Day 001 — Sign Up Landing Page](days/001-sign-up/screenshots/signupLanding.png)
