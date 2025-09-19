@@ -1,0 +1,65 @@
+/* Include padding/border in element width/height calculations */
+* {
+  box-sizing: border-box;
+}
+
+/* Full-height canvas + remove default body margin */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Center the card; set font + background gradient */
+body {
+  display: grid; /* easy centering */
+  place-items: center; /* center both axes */
+  font-family: system-ui, sans-serif; /* clean default font */
+}
+
+/* The card container (size, padding, soft shadow) */
+.card {
+  width: min(90vw, 420px); /* responsive max width */
+  background: #f2f8f8; /* light surface */
+  border-radius: 14px; /* rounded corners */
+  padding: 24px; /* inner spacing */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* depth */
+}
+
+/* Stack form fields vertically with consistent spacing */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* space between input & button */
+}
+
+/* Shared control styles so input & button align visually */
+input,
+button {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Button look + pointer cursor */
+button {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background: purple;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+label,
+input,
+button {
+  font: inherit;
+  line-height: 1.2;
+}
