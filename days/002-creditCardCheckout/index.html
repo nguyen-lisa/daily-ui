@@ -1,0 +1,24 @@
+<!-- Center everything on the page -->
+<main class="center">
+  <!-- The UI "card" -->
+  <article class="card">
+    <h1>Let's Make a Payment</h1>
+
+    <!-- Simple form: 1 field + 1 button -->
+    <form id="checkout">
+      <!-- Label connects to input via for/id (better a11y + click target) -->
+      <label for="name">Card Holder's Name</label>
+      <input id="name" type="text" placeholder="John Doe" required />
+      <label for="num">Card Number</label>
+      <input id="num" type="text" inputmode="numeric" placeholder="1234 1234 1234 1234" required />
+      <div class="row">
+        <label for="exp">Expiry</label>
+        <input id="exp" required placeholder="MM/YY" type="text" inputmode="numeric" />
+        <label for="cvc">CVC</label>
+        <input id="cvc" type="int" placeholder="123" required type="text" inputmode="numeric" />
+      </div>
+      <!-- Submits the form (also works with Enter in the input) -->
+      <button type="submit">Pay</button>
+    </form>
+  </article>
+</main>
