@@ -4,3 +4,4 @@ What's the main focus? Is it for a book, an album, a mobile app, a SaaS product?
 
 Link to demo: https://codepen.io/nguyen-lisa/pen/wBMaWoB
 
+![landing](./screenshots/perfume.png)
